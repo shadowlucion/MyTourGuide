@@ -1,0 +1,14 @@
+doctype html 
+html 
+    head 
+        title Natours | #{tours}
+        link(rel='stylesheet' href='css/style.css')
+        link(rel='shortcut icon' type='image/png' href='img/favicon.png')
+
+    body 
+        h1 Hello #{user}
+        h1= tours 
+        h1= user.toUpperCase() 
+        - const x = 2 
+        h1= x*2 
+        //- This is just some texts 
